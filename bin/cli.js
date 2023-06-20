@@ -12,7 +12,6 @@ program
   .option('-f, --force', 'overwrite target directory if it exist')
   .action((name, options) => {
     // 打印执行结果
-    // console.log('name:',name,'options:',options)
     require('../lib/create.js')(name, options)
   })
   

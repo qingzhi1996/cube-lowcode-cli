@@ -14,6 +14,24 @@ program
     // 打印执行结果
     require('../lib/create.js')(name, options)
   })
+
+program
+  // 定义命令和参数
+  .command('start')
+  .description('start project')
+  .action(() => {
+    // 打印执行结果
+    require('../lib/dev.js')()
+  })
+
+program
+  // 定义命令和参数
+  .command('build')
+  .description('build project')
+  .action(() => {
+    // 打印执行结果
+    require('../lib/build.js')()
+  })
   
 program
    // 配置版本号信息

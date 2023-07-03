@@ -1,6 +1,6 @@
 {
   "name": "cube-lowcode-cli",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "cube脚手架",
   "main": "index.js",
   "bin": {
@@ -28,8 +28,10 @@
     "figlet": "^1.5.0",
     "fs-extra": "^11.1.1",
     "inquirer": "^8.0.0",
+    "material_template": "^1.0.0",
     "ora": "^4.0.0",
     "path": "^0.12.7",
+    "shelljs": "^0.8.5",
     "util": "^0.12.5"
   }
 }
